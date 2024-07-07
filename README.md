@@ -39,3 +39,23 @@ e. Run the Backend Server
 ```bash
 python manage.py runserver
 ```
+### 3. Setup Frontend
+a. Navigate to the Frontend Directory
+```bash
+cd frontend
+```
+b. Install Frontend Dependencies
+```bash
+npm install
+# or
+yarn install
+```
+c. Run the Frontend Development Server
+```bash
+npm run dev
+# or
+yarn dev
+```
+### Running the Application
+Backend: Make sure the backend server is running on http://127.0.0.1:8000/.
+Frontend: The frontend development server should be running on http://localhost:3000/.
